@@ -39,7 +39,7 @@ const Menu = () => {
 						mainText="D'EMIEHAN"
 						subText="Menu Terpopuler"
 						mainTextColor="text-[#FFE920]"
-						className="text-8xl"
+						className="text-7xl"
 					/>
 
 					<div className="flex flex-col justify-center items-center max-w-screen-2xl pt-16 uppercase">

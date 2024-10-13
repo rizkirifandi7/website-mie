@@ -19,7 +19,7 @@ const Kontak = () => {
 					/>
 				</div>
 
-				<div className="flex justify-between items-center pt-10 ">
+				<div className="flex justify-between items-center pt-16  gap-6">
 					<div className="basis-1/2">
 						<form className="flex flex-col gap-4">
 							<input
@@ -38,14 +38,14 @@ const Kontak = () => {
 							></textarea>
 							<button
 								type="submit"
-								className="p-2 bg-[#D5F022] border-2 border-black uppercase"
+								className="p-2 text-lg font-bold bg-[#FF6141] border-2 border-black uppercase"
 							>
 								Kirim
 							</button>
 						</form>
 					</div>
-					<div className="">
-						<div className="flex flex-col gap-4">
+					<div className="basis-1/2">
+						<div className="flex flex-col justify-center items-center gap-4 p-4 border-2 border-black bg-white">
 							<h1 className="text-5xl font-bold text-outline-white bg-[#FF6141] w-fit p-2 -rotate-2">
 								D&apos;emiehan
 							</h1>
@@ -55,6 +55,14 @@ const Kontak = () => {
 							<p className="text-2xl font-bold text-outline-white">
 								08123456789
 							</p>
+							<a
+								href="https://wa.me/08123456789"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="p-2 bg-[#25D366] text-lg font-bold text-white text-center border-2 border-black uppercase"
+							>
+								Hubungi via WhatsApp
+							</a>
 						</div>
 					</div>
 				</div>
